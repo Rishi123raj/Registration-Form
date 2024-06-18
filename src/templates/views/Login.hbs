@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="Login-containers">
+        <div class="Login-left">
+            <div class="headings">
+                <h1>Welcome</h1>
+            </div>
+            <div class="Login-content">
+                <h3>In the complete MERN BACKEND course</h3>
+            </div>
+            <div class="btn">
+                <button>Login</button>
+            </div>
+        </div>
+        <div class="Login-right">
+            
+            <form action="/" id="Login-details">
+                <div class="Form-container">
+                    <div class="headingss"><h1>Employee Login Form</h1></div>
+                    <div class="Form-Content">
+                    <div class="Form-right">
+                        <input type="text" name="firstName" class="firstname" placeholder="First Name*">
+                        <input type="text" name="lastName" class="lastname" placeholder="Last Name*">
+                        <input type="email" name="Email" class="email" placeholder="Email*">
+                        <input type="number" name="phone" class="phone" placeholder="Phone*">
+                    </div>
+
+
+                    <div class="Form-left">
+                        <input type="password" name="password" class="password" placeholder="password*">
+                        <input type="password" name="password" class="cpassword" placeholder="confirm password*">
+                        <input type="text" name="answer" class="answer" placeholder="Answer*">
+                        <button type="submit" class="submit-btn">Login</button>
+                    </div>
+                </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    {{>Footer}}
+</body>
+
+</html>

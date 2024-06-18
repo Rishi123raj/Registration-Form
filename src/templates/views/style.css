@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containers{
+    height: 300px;
+    background-image: linear-gradient(rgb(161, 63, 63),rgb(49, 49, 145));
+    color: white;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul li{
+    list-style-type: none;
+    margin: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.top-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.heading{
+    margin: 20px;
+}
+.Mission .heading{
+    text-align: center;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+}
+.sponsor-section h1{
+    margin: 25px;
+}
+.Mission-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.sub-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin-top: 50px;
+}
+.sub-content h3{
+    margin-top: 50px;
+}
+.sponsor-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.sponsor{
+    display: flex;
+    flex-direction: column;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 2px solid black;
+    background-color: rgb(41, 41, 77);
+}
+.Footer{
+    height: 340px;
+    background-color: rgb(44, 40, 40);
+    color: white;
+}
+.Login-containers{
+    display: flex;
+    height: 600px;
+    width: 90%;
+    margin: auto;
+   background-color: rgb(74, 71, 145);
+    border: 2px solid black;
+}
+.Login-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: white;
+}
+.Login-left .headings{
+    margin-right: 80px;
+}
+.Login-content{
+    margin: 10px 38px;
+}
+.btn{
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.btn button{
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+.Form-container{
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 150px 0 0 150px;
+    border: 2px solid black;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.566);
+    padding: 20px;
+}
+.Form-Content{
+    display: flex;
+}
+.Form-right{
+    display: flex;
+    flex-direction: column;
+}
+.Form-left{
+    display: flex;
+    flex-direction: column;
+}
+.Form-Content input{
+    height: 30px;
+    width: 250px;
+    margin: 30px 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+#Login-detail{
+    display: flex;
+}
+.headingss{
+    text-align: center;
+    margin: 30px auto;
+}
+.submit-btn{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.Registration-content{
+    display: flex;
+}
+.Registration-content input{
+    height: 20px;
+    width: 250px;
+    margin: 20px 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
